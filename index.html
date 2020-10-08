@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TrackSprint</title>
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
-<body>
-    
+<body id ="body">
+    <!-- -->
+    <div id = "heading">
+        <h1 id = "header">TrackSprint</h1>
+        <h3 id = "subHeader">Rapidly access the tools to automate well-structured sprints and document growth</h3>
+    </div>
+
+    <!-- -->
+    <div>
+        <div id = "row1" class = "buttons">
+            <button onclick ="newSprint()" class = "button button1">NEW SPRINT</button>
+            <button onclick ="manageBacklog()" class = "button button2">MANAGE BACKLOG</button>
+        </div>
+        <div id = "row2" class = "buttons">
+            <button onclick="viewReports()" class = "button button3">VIEW REPORTS</button>
+        </div>
+        <div id = "row3" class = "buttons">
+            <button onclick = "trello()" class = "button button4">CONNECT TO TRELLO</button>
+        </div>
+    </div>    
 </body>
+<script src ="./scripts/index.js"></script>
 </html>

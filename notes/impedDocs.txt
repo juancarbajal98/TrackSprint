@@ -1,2 +1,13 @@
 Here is where I will document all the times I come across
 an impediment and will document what I use to solve it (links, thoughts, etc)
+
+#1. First thing was that I had to delete this 'main' branch on github
+    - for some reason github is making this main branch the default one soon
+    - used to master so changed that to default and deleted main
+    - used this to learn how to delete branches remotely:
+    https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
+
+#2. Resizing button font was causing my button to resize and change position
+    - Found out this has to do with the default vertical-align that buttons have
+    - used this to fix: 
+    https://stackoverflow.com/questions/28157643/font-size-changes-position-of-element
