@@ -1,3 +1,32 @@
-h1 {
-    color: red;
+#body{
+    background-color: #CAD2C5;
+    margin: 0px;
+}
+
+#navBar{
+    width: 100%;
+    height:80px;
+    background-color: #2F3E46;
+}
+
+#navText{
+    margin: 0px 0px 0px 0px;
+    color: #CAD2C5;
+    padding: 10px 10px 0px 15px;
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+.row1{
+    display: inline-block;
+}
+.row2{
+    display: inline-block;
+}
+
+#r1RHS{
+    position: absolute;
+}
+
+#r2LHS{
+    width: 632px;
 }

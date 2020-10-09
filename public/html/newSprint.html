@@ -6,8 +6,33 @@
     <title>New Sprint</title>
     <link rel="stylesheet" href ="../styles/newSprint.css">
 </head>
-<body>
-    <h1>newsprint</h1>
+<body id ="body">
+    <div id ="navBar">
+        <h1 onclick = "returnHome()" id ="navText">TrackSprint</h1>
+    </div>
+    <div id="row1">
+        <div class = "row1" id = "r1LHS">
+            <h1>Plan a new sprint</h1>
+            <p>A sprint is a short, time-boxed period when a scrum team works to complete a set amount of work.</p>
+            <p>Description (optional) </p>
+            <form>
+                <input type="text" id ="desc" name ="desc"><br>
+            </form>
+            <button onclick ="addItem()">Add Item</button>
+            <button onclick ="editItems()">Edit Item(s)</button>
+        </div>
+        <div class = "row1" id = "r1RHS">
+            <h1>Backlog</h1>
+        </div>
+    </div>
+    <div id="row2">
+        <div class = "row2" id = "r2LHS">
+            <h1>Distribute time</h1>
+        </div>
+        <div class = "row2" id = "r2RHS">
+            <h1>Time</h1>
+        </div>
+    </div>
 </body>
 <script src ="../scripts/newSprint.js"></script>
 </html>
