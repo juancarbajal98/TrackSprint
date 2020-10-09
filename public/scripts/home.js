@@ -1,16 +1,16 @@
-// arrow funcs for buttons
+// arrow funcs for buttons, adjusting path accordingly
 const newSprint = () => {
-    console.log('clicked New Sprint');
+    window.location.href=window.location.href + "newsprint";
 }
 
 const manageBacklog = () => {
-    console.log('clicked Manage Backlog');
+    window.location.href=window.location.href + "managebacklog";
 }
 
 const viewReports = () => {
-    console.log('clicked View Reports');
+    window.location.href=window.location.href + "viewreports";
 }
 
 const trello = () => {
-    console.log('clicked Connect To Trello');
+    window.location.href=window.location.href + "trello";
 }
