@@ -1,11 +1,14 @@
 /* add CSS for homepage */
 #body{
     background-color: #CAD2C5;
+    margin:0px;
+    height:700px;
 }
 
 #header{
     font-size: 144px;
     text-align: center;
+    letter-spacing: 9px;
     margin: 0px 0px 0px;
     color: #2F3E46;
 }
