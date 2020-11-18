@@ -1,0 +1,22 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "Dynamic website to rapidly provide user with the tools to automate well-structured sprints and document growth throughout sprints",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juancarbajal98/TrackSprint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juancarbajal98/TrackSprint/issues"
+  },
+  "homepage": "https://github.com/juancarbajal98/TrackSprint#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

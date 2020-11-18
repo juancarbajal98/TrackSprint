@@ -1,0 +1,33 @@
+Here is where I will document all the times I come across
+an impediment and will document what I use to solve it (links, thoughts, etc)
+
+#1. First thing was that I had to delete this 'main' branch on github
+    - for some reason github is making this main branch the default one soon
+    - used to master so changed that to default and deleted main
+    - used this to learn how to delete branches remotely:
+    https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
+
+#2. Resizing button font was causing my button to resize and change position
+    - Found out this has to do with the default vertical-align that buttons have
+    - used this to fix: 
+    https://stackoverflow.com/questions/28157643/font-size-changes-position-of-element
+
+#3 How to open a file in my current workspace on a new window? Wanted to have notes on another window..
+    - Found the 2-step shortcut for this on stackoverflow: cmmd + k => o 
+    https://stackoverflow.com/questions/43362133/visual-studio-code-open-tab-in-new-window
+
+#4 Wanting to center my add and edit buttons on the new sprint page in their respective div
+    - Little bit hard-coded, but involved creating divs for the button container and setting
+      positioning attributes correctly.
+    https://www.w3schools.com/howto/howto_css_center_button.asp
+
+#5 Making a pill-shaped div/button with CSS
+    - found a codepen page with a small div example
+    - extrapolated the ratio they used from height/border-radius b/c border radius was a pixel value
+    - found it to be 1.33 * height => perfect pill shape :)
+    https://codepen.io/Arsal/pen/jAkmv
+
+#6 (Figma) learning how to read distance measurements quicker
+    - THE OPTION KEY OMG
+    - huge time saver
+    https://help.figma.com/hc/en-us/articles/360039956974-Measure-distances-between-objects

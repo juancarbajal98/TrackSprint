@@ -1,0 +1,65 @@
+/* add CSS for homepage */
+#body{
+    background-color: #CAD2C5;
+    margin:0px;
+    height:700px;
+}
+
+#header{
+    font-size: 144px;
+    text-align: center;
+    letter-spacing: 9px;
+    margin: 0px 0px 0px;
+    color: #2F3E46;
+}
+
+#subHeader{
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+    color: #2F3E46;
+    font-style: italic;
+}
+
+#row1{
+    width: 100%;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.button{
+    background-color: #CAD2C5;
+    color: #354F52;
+    border: 10px solid #84A98C;
+    border-radius: 45%;
+    width: 387px;
+    vertical-align: middle;
+}
+
+.button1{
+    height: 144px;
+    margin-right: 24px;
+    font-size: 48px;
+}
+
+.button2{
+    height: 144px;
+    margin-left:24px;
+    font-size: 48px;
+}
+
+.button3{
+    margin:53px 0px 33px 0px;
+    height: 77px;
+    font-size: 20px;
+}
+
+.button4{
+    height: 77px;
+    font-size: 20px;
+}
+
+#row1{
+    display: inline-block;
+}
